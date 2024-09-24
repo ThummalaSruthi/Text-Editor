@@ -5,25 +5,25 @@
 1. Action.java (Action Class)
 This class tracks every action you do in the text editor, like adding or deleting text.
 It remembers:
-What action you took (adding or deleting text).
--> The line where the change happened.
--> The actual text you added or deleted.
--> The time when the action happened.
-2. Notepad.java (Notepad Class)
-This class acts like the text editor itself.
-->It stores text in a list (like a notepad with lines).
-->It can do the following:
-->Insert text into a specific line.
-->Delete text from one or more lines.
-->Copy text from certain lines.
--> Paste text that was copied to another line.
-->Undo the most recent change.
--> Redo the last undone change.
--> Display all or part of the text.
-3. App.java (Main Program)
-This is the part where the user interacts with the text editor.
-You can choose options to:
-Add, delete, copy, or paste text.
-Undo or redo your last action.
-View the text you’ve written.
-Exit the program.
+What action you took (adding or deleting text).<br>
+-> The line where the change happened.<br>
+-> The actual text you added or deleted.<br>
+-> The time when the action happened.<br>
+2. Notepad.java (Notepad Class)<br>
+This class acts like the text editor itself.<br>
+->It stores text in a list (like a notepad with lines).<br>
+->It can do the following:<br>
+->Insert text into a specific line.<br>
+->Delete text from one or more lines.<br>
+->Copy text from certain lines.<br>
+-> Paste text that was copied to another line.<br>
+->Undo the most recent change.<br>
+-> Redo the last undone change.<br>
+-> Display all or part of the text.<br>
+3. App.java (Main Program)<br>
+This is the part where the user interacts with the text editor.<br>
+You can choose options to:<br>
+Add, delete, copy, or paste text.<br>
+Undo or redo your last action.<br>
+View the text you’ve written.<br>
+Exit the program.<br>
